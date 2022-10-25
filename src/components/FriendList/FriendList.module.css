@@ -1,0 +1,35 @@
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    margin: 0 20px;
+    margin-bottom: 50px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    width: 300px;
+    padding: 10px;
+
+    box-shadow: 3px 3px 8px 2px rgba(0, 0, 0, 0.3);
+}
+
+.pin {
+    width: 10px;
+    height: 10px;
+    
+    background-color: black;
+    border-radius: 50%;
+}
+
+.true {
+    background-color: green;
+}
+
+.false {
+    background-color: red;
+}

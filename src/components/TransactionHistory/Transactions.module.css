@@ -1,0 +1,54 @@
+.table {
+    width: 450px;
+    margin: 20px;
+
+    background-color: rgb(247, 245, 245);
+    box-shadow: 3px 3px 8px 2px rgba(0, 0, 0, 0.3);
+}
+
+.subtitle {
+    width: 150px;
+    padding: 10px;
+
+    text-transform: uppercase;
+
+    background-color: lightcoral;
+    color: white;
+    
+}
+
+.string {
+    background-color: white;
+}
+
+.string:nth-child(even) {
+    background-color: rgb(252, 210, 210);
+}
+
+.cell {
+    padding: 10px;
+    text-align: center;
+}
+
+.cell::first-letter {
+    text-transform: uppercase;
+}
+
+
+
+
+/* .string {
+    width: 150px;
+} */
+
+/* .item {
+    width: 450px;
+}
+
+.box {
+    width: 450px;
+}
+
+tbody {
+    width: 450px;
+} */
